@@ -1,0 +1,26 @@
+1. Create the environment
+    cd ai-agents/Labfiles/02-build-ai-agent/Python
+    python -m venv labenv
+
+2. Activate the environment
+    .\labenv\Scripts\activate.bat or ./labenv/bin/Activate.ps1
+
+3. Install requirements
+    pip install -r requirements.txt azure-ai-projects
+
+4. Add endpoint to .env
+
+5. Login to AZ 
+    az login
+
+6. Run the app
+    python agent.py
+
+    Prompt examples:
+    What's the category with the highest cost?
+    Create a pie chart showing cost by category
+
+
+
+Resource:
+https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html
