@@ -8,10 +8,6 @@
 3. Install requirements
     pip install -r requirements.txt azure-ai-projects
 
-
-
-    
-
 4. Add endpoint to .env
 
 5. Login to AZ 
@@ -21,10 +17,10 @@
     python agent.py
 
     Prompt examples:
-    What's the category with the highest cost?
-    Create a pie chart showing cost by category
+    I have a technical problem
+    alex@contoso.com my computer won't start
 
 
 
 Resource:
-https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/02-build-ai-agent.html
+https://microsoftlearning.github.io/mslearn-ai-agents/Instructions/03-agent-custom-functions.html
