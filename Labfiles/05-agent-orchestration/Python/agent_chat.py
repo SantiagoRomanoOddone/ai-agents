@@ -84,6 +84,7 @@ async def main():
 
         # Create the devops agent on the Azure AI agent service
         devops_agent_definition = await client.agents.create_agent(
+            # In this example, I use the same model for both agents.
             model=ai_agent_settings.model_deployment_name,
             name=DEVOPS_ASSISTANT,
             instructions=DEVOPS_ASSISTANT_INSTRUCTIONS,
