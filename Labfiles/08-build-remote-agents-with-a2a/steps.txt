@@ -1,0 +1,28 @@
+1. Create the environment
+    cd ai-agents/Labfiles/08-build-remote-agents-with-a2a/python
+    python -m venv labenv
+
+2. Activate the environment
+    .\labenv\Scripts\activate.bat or ./labenv/bin/Activate.ps1
+    In mac 
+    source labenv/bin/activate
+
+
+3. Install requirements
+    pip install -r requirements.txt --pre azure-ai-projects mcp
+
+4. Add endpoint to .env
+
+5. Login to AZ 
+    az login
+
+6. Run the app
+    python run_all.py
+
+
+Resource:
+https://github.com/MicrosoftLearning/mslearn-ai-agents/blob/main/Instructions/06-multi-remote-agents-with-a2a.md
+
+
+
+https://sromanooddone-5073-resource.services.ai.azure.com/api/projects/sromanooddone-5073
