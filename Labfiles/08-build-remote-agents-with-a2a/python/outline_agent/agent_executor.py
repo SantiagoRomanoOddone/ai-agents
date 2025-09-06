@@ -9,6 +9,9 @@ from a2a.utils.message import new_agent_text_message
 from outline_agent.agent import OutlineAgent, create_foundry_outline_agent
 
 # An AgentExecutor that runs Azure AI Foundry-based agents. Adapted from the ADK agent executor pattern.
+# the “interface” between the agent and the outside world.
+# handles tasks/messages internally. 
+
 class OutlineAgentExecutor(AgentExecutor):
 
     def __init__(self, card: AgentCard):

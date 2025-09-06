@@ -6,6 +6,8 @@ from azure.ai.agents import AgentsClient
 from azure.ai.agents.models import Agent, MessageRole, ListSortOrder
 from azure.identity import DefaultAzureCredential
 
+# the brain
+# defines the agent’s logic.
 class OutlineAgent:
 
     def __init__(self):

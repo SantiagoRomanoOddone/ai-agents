@@ -12,8 +12,11 @@ from starlette.requests import Request
 from starlette.responses import PlainTextResponse
 from starlette.routing import Route
 
-load_dotenv()
 
+# This is the “deployment layer”
+# deploys the agent.
+
+load_dotenv()
 host = os.environ["SERVER_URL"]
 port = os.environ["TITLE_AGENT_PORT"]
 
